@@ -1,14 +1,30 @@
 
-$body-background-color: $grey-dk-300;
-$sidebar-color: $grey-dk-300;
+// Color overrides
+$dark-bg: #121416;
+$light-blue: #00c3ff;
+$heading-white: #FFFFFF;
+$body-subheading-blue: #C1CAD1;
+
+// Category heading colors
+$color-nav-light-green: #46b4a5;
+$color-nav-blue: #00aed9;
+$color-nav-green: #00b45a;
+$color-nav-yellow: #f5d503;
+$color-nav-dark-blue: #226CC3;
+$color-nav-purple: #5f5bb6;
+$color-nav-grey: #B9C3CB;
+
+$body-background-color: $dark-bg;
+$sidebar-color: $dark-bg;
 $border-color: $grey-dk-200;
 
-$body-text-color: $grey-lt-300;
-$body-heading-color: $grey-lt-000;
+$body-text-color: $body-subheading-blue;
+$body-heading-color: $heading-white;
 $nav-child-link-color: $grey-dk-000;
 
-$link-color: $blue-000;
+$link-color: $light-blue;
 $btn-primary-color: $blue-200;
 $base-button-color: $grey-dk-250;
-
 $code-background-color: $grey-dk-250;
+
+$body-font-family: 'DINPro', 'Source Sans Pro', roboto, noto;

@@ -2,6 +2,29 @@
 // // Typography
 // //
 //
+// Add our custom fonts here
+@font-face {
+ font-family: 'DINPro';
+ src: url("../font/DINPro-Light.otf");
+ font-weight: 300;
+ font-style: normal; }
+@font-face {
+ font-family: 'DINPro';
+ src: url("../font/DINPro-Regular.otf");
+ font-weight: normal;
+ font-style: normal; }
+@font-face {
+ font-family: 'DINPro';
+ src: url("../font/DINPro-Medium.otf");
+ font-weight: medium;
+ font-style: normal; }
+@font-face {
+ font-family: 'DINPro';
+ src: url("../font/DINPro-Bold.otf");
+ font-weight: bold;
+ font-style: normal; }
+
+$body-font-family: "DINPro", "Source Sans Pro", sans-serif;
 // $body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
 // $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
 // $root-font-size: 16px;         // Base font-size for rems
@@ -15,12 +38,12 @@
 // $white: #fff;
 //
 // $grey-dk-000: #959396;
-// $grey-dk-100: #5c5962;
+// $grey-dk-100: #131a62; // #5c5962;
 // $grey-dk-200: #44434d;
 // $grey-dk-250: #302d36 !default;
 // $grey-dk-300: #27262b;
 //
-// $grey-lt-000: #f5f6fa;
+// $grey-lt-000: #ff1822;//  #f5f6fa;
 // $grey-lt-100: #eeebee;
 // $grey-lt-200: #ecebed;
 // $grey-lt-300: #e6e1e8;
@@ -39,6 +62,9 @@
 // $green-100: #11b584;
 // $green-200: #009c7b;
 // $green-300: #026e57;
+
+// Custom colors
+$light-blue: #00c3ff;
 //
 // $body-background-color: $white !default;
 // $sidebar-color: $grey-lt-000 !default;
