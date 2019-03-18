@@ -7,6 +7,10 @@
   flex: 1 1 auto;
   color: $body-heading-color;
   background-color: $sidebar-color;
+  background-image: url("https://blockstream.com/img/icons/logo_blks.png");
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 20% 50%;
 
   @include mq(md) {
     position: absolute;
@@ -80,6 +84,76 @@
   display: block;
   padding-top: $sp-1;
   padding-bottom: $sp-1;
+
+  &.active {
+    font-weight: 600;
+    color: $body-heading-color;
+    text-decoration: none;
+  }
+}
+
+.navigation-list-link-yellow {
+  color: $color-nav-yellow;
+
+  &.active {
+    font-weight: 600;
+    color: $body-heading-color;
+    text-decoration: none;
+  }
+}
+
+.navigation-list-link-green {
+  color: $color-nav-green;
+
+  &.active {
+    font-weight: 600;
+    color: $body-heading-color;
+    text-decoration: none;
+  }
+}
+
+.navigation-list-link-blue {
+  color: $color-nav-blue;
+
+  &.active {
+    font-weight: 600;
+    color: $body-heading-color;
+    text-decoration: none;
+  }
+}
+
+.navigation-list-link-dark-blue {
+  color: $color-nav-dark-blue;
+
+  &.active {
+    font-weight: 600;
+    color: $body-heading-color;
+    text-decoration: none;
+  }
+}
+
+.navigation-list-link-light-green {
+  color: $color-nav-light-green;
+
+  &.active {
+    font-weight: 600;
+    color: $body-heading-color;
+    text-decoration: none;
+  }
+}
+
+.navigation-list-link-purple {
+  color: $color-nav-purple;
+
+  &.active {
+    font-weight: 600;
+    color: $body-heading-color;
+    text-decoration: none;
+  }
+}
+
+.navigation-list-link-white {
+  color: $heading-white;
 
   &.active {
     font-weight: 600;
